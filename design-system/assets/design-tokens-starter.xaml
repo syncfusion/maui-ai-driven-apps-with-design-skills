@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Primitive colors -->
+    <Color x:Key="Color.Blue.600">#2563EB</Color>
+    <Color x:Key="Color.Gray.900">#111827</Color>
+    <Color x:Key="Color.Gray.700">#374151</Color>
+    <Color x:Key="Color.Gray.200">#E5E7EB</Color>
+    <Color x:Key="Color.White">#FFFFFF</Color>
+    <Color x:Key="Color.Green.500">#22C55E</Color>
+    <Color x:Key="Color.Amber.500">#F59E0B</Color>
+    <Color x:Key="Color.Red.500">#EF4444</Color>
+
+    <!-- Primitive spacing -->
+    <x:Double x:Key="Space.1">4</x:Double>
+    <x:Double x:Key="Space.2">8</x:Double>
+    <x:Double x:Key="Space.3">12</x:Double>
+    <x:Double x:Key="Space.4">16</x:Double>
+    <x:Double x:Key="Space.6">24</x:Double>
+
+    <!-- Semantic colors -->
+    <Color x:Key="Color.Action.Primary">{StaticResource Color.Blue.600}</Color>
+    <Color x:Key="Color.Text.Primary">{StaticResource Color.Gray.900}</Color>
+    <Color x:Key="Color.Text.Secondary">{StaticResource Color.Gray.700}</Color>
+    <Color x:Key="Color.Border.Subtle">{StaticResource Color.Gray.200}</Color>
+    <Color x:Key="Color.Surface.Card">{StaticResource Color.White}</Color>
+
+    <Color x:Key="Color.Status.Success">{StaticResource Color.Green.500}</Color>
+    <Color x:Key="Color.Status.Warning">{StaticResource Color.Amber.500}</Color>
+    <Color x:Key="Color.Status.Danger">{StaticResource Color.Red.500}</Color>
+
+    <!-- Component tokens -->
+    <Color x:Key="KpiCard.Background">{StaticResource Color.Surface.Card}</Color>
+    <Color x:Key="KpiCard.Title.Foreground">{StaticResource Color.Text.Secondary}</Color>
+    <Color x:Key="KpiCard.Value.Foreground">{StaticResource Color.Text.Primary}</Color>
+
+    <Color x:Key="Grid.Header.Background">{StaticResource Color.Surface.Card}</Color>
+    <Color x:Key="Grid.Header.Foreground">{StaticResource Color.Text.Secondary}</Color>
+    <Color x:Key="Grid.Row.Foreground">{StaticResource Color.Text.Primary}</Color>
+    <Color x:Key="Grid.Border">{StaticResource Color.Border.Subtle}</Color>
+
+    <Color x:Key="Chart.Series.Primary">{StaticResource Color.Action.Primary}</Color>
+    <Color x:Key="Chart.Series.Success">{StaticResource Color.Status.Success}</Color>
+    <Color x:Key="Chart.Series.Warning">{StaticResource Color.Status.Warning}</Color>
+    <Color x:Key="Chart.Series.Danger">{StaticResource Color.Status.Danger}</Color>
+
+</ResourceDictionary>
